@@ -1,0 +1,82 @@
+.editStory-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.editStory-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.message {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.error_msg {
+    color: #d9534f; /* Red for errors */
+}
+
+.success_msg {
+    color: #5bc0de; /* Blue for success */
+}
+
+input[type="text"] {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.currentlyImage {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.currentlyImage img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.StoryImageField {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.StoryImageField .txt {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.StoryImageField input[type="file"] {
+    padding: 0.5rem;
+}
+
+.editStory-btn {
+    padding: 0.8rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.editStory-btn:hover {
+    background-color: #0056b3;
+}

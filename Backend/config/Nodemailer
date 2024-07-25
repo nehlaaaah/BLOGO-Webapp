@@ -1,0 +1,5 @@
+
+SMTP_HOST =smtp.gmail.com
+SMTP_PORT =587
+EMAIL_USERNAME = admin@gmail.com
+EMAIL_PASS = 1234
